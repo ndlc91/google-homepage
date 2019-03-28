@@ -1,38 +1,111 @@
 
-body {
+body, header, footer {
     -webkit-appearance: none;
     font-family: Arial, Helvetica, sans-serif;
+    font-weight: 5px;
 
 }
 
-li {
-    display: inline-block;
-    margin-right: 5px;
-    margin-left: 3px;
-    margin-top: 5px;
+header {
+    height: 200px;
+    margin-right: 8px;
 
 }
 
-.right_header {
-    text-align: right;
+nav {
+    padding-top: 10px;
 
 }
 
-#menu_image {
-    height: 25px;
-    width: 25px;
+.float_right {
+    float: right;
+    display: block;
+    
+}
+
+a {
+    color: black;
+    text-decoration: none;
+    padding: 8px;
 
 }
 
-.logo, .search_form, .middle_slot_promo {
-  text-align: center
+a:hover {
+    text-decoration: underline;
+    color: rgb(64,64,64);
 
 }
+
 .logo {
-    margin-top: 52px
+    text-align: center;
+    padding-bottom: 15px;
+
 }
 
-.search_form {
-    width: 100%;
 
+.searchbar {
+    display: block;
+    text-align: center;
+
+}
+
+input {
+    height: 40px;
+    width: 40%;
+    box-shadow: 0px 3px 3px lightgray;
+    border-color: rgb(200,200,200);
+    border-radius: 5px;
+    border-width: thin;
+
+}
+
+input:hover {
+
+    box-shadow: 2px 5px 20px lightgray;
+
+}
+
+input:active {
+    color: none;
+
+}
+
+.buttons {
+    display: block;
+    text-align: center;
+    
+}
+button {
+    margin-top: 20px;
+    color: rgb(100,100,100);
+    background-color: rgb(240,240,240);
+    border: none;
+    border-radius: 3px;
+    font-size: 16px;
+    padding: 11px;
+    font-weight: bold;
+
+
+}
+
+button:hover {
+    border-color: rgb(230,230,230);
+    border-style: solid;
+    border-width: thin;
+    border-radius: 3px;
+    color: black;
+    font-weight: bolder;
+
+}
+
+.buttons {
+    margin-bottom: 24%;
+
+}
+
+ footer {
+    width: 100%;
+    background-color: rgb(240,240,240);
+    padding-bottom: 10px; 
+    
 }
